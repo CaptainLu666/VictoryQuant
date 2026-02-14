@@ -1,0 +1,44 @@
+{
+    "database": {
+        "type": "mysql",
+        "host": "pc-2ze47ec1ceqr3284w.mysql.polardb.rds.aliyuncs.com",
+        "port": 3306,
+        "user": "sdpbiroot",
+        "password": "Sdpbiroot6688",
+        "database": "testvq",
+        "charset": "utf8mb4",
+        "pool_size": 20,
+        "pool_recycle": 3600
+    },
+    "trading": {
+        "trading_start_time": "09:30",
+        "trading_end_time": "15:00",
+        "lunch_break_start": "11:30",
+        "lunch_break_end": "13:00",
+        "price_limit_ratio": 0.1,
+        "st_price_limit_ratio": 0.05,
+        "gem_price_limit_ratio": 0.2,
+        "min_trade_unit": 100,
+        "commission_rate": 0.0003,
+        "stamp_duty_rate": 0.001,
+        "transfer_fee_rate": 0.00002
+    },
+    "risk": {
+        "max_position_ratio": 0.8,
+        "max_single_stock_ratio": 0.2,
+        "max_daily_loss_ratio": 0.05,
+        "stop_loss_ratio": 0.08,
+        "take_profit_ratio": 0.15
+    },
+    "data": {
+        "data_source": "akshare",
+        "cache_enabled": true,
+        "cache_dir": "data/cache",
+        "update_interval": 300
+    },
+    "backtest": {
+        "initial_capital": 1000000.0,
+        "benchmark": "000300",
+        "risk_free_rate": 0.03
+    }
+}
