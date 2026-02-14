@@ -1,10 +1,10 @@
 {
     "database": {
         "type": "mysql",
-        "host": "pc-2ze47ec1ceqr3284w.mysql.polardb.rds.aliyuncs.com",
+        "host": "pc-test.mysql.polardb.rds.aliyuncs.com",
         "port": 3306,
-        "user": "sdpbiroot",
-        "password": "Sdpbiroot6688",
+        "user": "test",
+        "password": "test6688",
         "database": "testvq",
         "charset": "utf8mb4",
         "pool_size": 20,
